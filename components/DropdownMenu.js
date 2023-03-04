@@ -37,7 +37,7 @@ function AnotherComponent(props) {
 
   const selectedGenre = props.genre
 
-  const myList = words[selectedGenre].slice(0,10);
+  const myList = words[selectedGenre].slice(0,15);
 
   console.log(props)
 
